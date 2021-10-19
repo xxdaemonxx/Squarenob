@@ -1,0 +1,109 @@
+.main-jumbo{
+    height: 600px;
+    background-color: #e2cede;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-image: url("https://media.istockphoto.com/photos/am-a-strong-woman-picture-id614012698?k=20&m=614012698&s=612x612&w=0&h=YPDCM89NB5v3csEHQ0pmGzGRH65DUOHV-pBiV9xynuI=");
+}
+.jumbo-content{
+    width: 40%; 
+    margin-top: 180px;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background:
+    linear-gradient(
+    rgba(192, 14, 147, 0.4),
+    rgba(155, 0, 160, 0.4)
+    ),
+    url("https://media.istockphoto.com/photos/am-a-strong-woman-picture-id614012698?k=20&m=614012698&s=612x612&w=0&h=YPDCM89NB5v3csEHQ0pmGzGRH65DUOHV-pBiV9xynuI=");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.jumbo-title{
+    font-weight: 900;
+}
+.jumbo-btn{
+    padding: 15px 60px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    transition: .5s ease;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 50px;
+}
+.jumbo-btn:hover{
+    background-color: #fff;
+    color: #232953;
+    transform: scale(1.1);
+}
+.main-body{
+    position: relative;
+}
+.caption{
+    position: absolute;
+    top: -140px;
+    left: 0;
+    width: 100%;
+    margin: auto;
+    height: 200px;
+}
+.alt-caption{
+    display: none;
+}
+.section-header{
+    margin-bottom: 0;
+}
+.section-info{
+    color: #5c5c5c;
+}
+.mycard-img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: .5s ease;
+}
+.mycard{
+    transition: .5s ease;
+}
+.mycard:hover{
+    transform: translateY(-10px);
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 15px -5px rgb(0 0 0 / 35%);
+}
+.jet-section{
+    background-color: whitesmoke;
+}
+.jet-img{
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
+}
+.services-overview{
+    margin-top: 200px;
+}
+@media screen and (max-width: 700px) {
+    .main-jumbo{
+        height: 400px;
+    }
+    .caption{
+        display: none;
+    }
+    .alt-caption{
+        display: block;
+    }
+    .jumbo-content{
+        width: 80%; 
+        margin-top: 100px;
+    }
+    .services-overview{
+        margin-top: 50px;
+    }
+}
