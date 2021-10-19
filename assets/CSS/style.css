@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+*{
+    font-family: 'Noto Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+p{
+    font-size: 15px;
+}
+a{
+    color: #242558;
+    text-decoration: none;
+}
+.navbar{
+    font-size: 14px;
+    background-color: #800064;
+}
+.nav-item .nav-link{
+    color: #fff !important;
+}
+.active{
+    border-bottom: 1px solid #fff;
+}
+.form-control {
+    display: block;
+    border-radius: 4px;
+    width: 100%;
+    padding: 10px 16px;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #3b3b3b;
+    border-color: #b4b2b2;
+    box-shadow: none;
+}
+.form-control:focus {
+    border-color: #232953;
+    outline: 0;
+    box-shadow: none;
+}
+.form-select{
+    color: #232953;
+    border-color: #b4b2b2;
+    font-size: 15px;
+}
+.form-select:focus{
+    border-color: #000;
+    outline: 0;
+    box-shadow: none;
+}
+.btn-signup{
+    background-color: #FF00C9;
+    color: #fff;
+    border-color: #ca019f;
+    border-radius: 40px;
+    padding: 10px 6px;
+    width: 60%;
+    border: solid 0px;
+    transition: .5s ease;
+}
+.btn-signup:hover{
+    transform: scale(1.1);
+    background-color: #7e0062;
+}
+.btn-default{
+    padding: 7px 20px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    transition: .5s ease;
+    font-size: 13px;
+}
+.btn-default:hover{
+    color: #7e0062;
+    background-color: #fff;
+}
+.btn-general{
+    padding: 10px 20px;
+    background-color: #7e0062;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    transition: .5s ease;
+    font-size: 15px;
+}
+.btn-general:hover{
+    transform: scale(1.1);
+    background-color: #660050;
+}
+footer{
+    background-color: whitesmoke;
+    padding: 30px;
+    font-size: 14px;
+    /* color: #fff; */
+}
+.social-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-obj{
+    margin-right: 10px;
+    border-radius: 50%;
+    width: fit-content;
+    font-size: 19px;
+    color: #fff;
+    border: solid 1px #fff;
+    padding: 5px 10px;
+    align-items: center;
+    background-color: #7e0062;
+}
+a .icon-obj{
+    transition: .5s ease;
+}
+a .icon-obj:hover{
+    background-color: #520240;
+    color: #fff;
+}
